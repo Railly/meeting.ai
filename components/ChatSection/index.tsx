@@ -2,7 +2,7 @@ import { ChatContent } from "../ChatContent";
 
 export const ChatSection = () => {
   return (
-    <section className="flex flex-col h-screen p-6 w-2/3">
+    <section className="flex flex-col h-screen p-6 w-100 sm:w-2/3">
       <div className="flex items-center">
         <h2 className="font-bold text-2xl ">Chat Title</h2>
         <span className="bg-gray-300 h-6 ml-3 rounded-full text-center w-6">
